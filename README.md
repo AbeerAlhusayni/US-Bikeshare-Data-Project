@@ -16,6 +16,8 @@ bikeshare_2.py
 
 ### Credits
 * YAQEEN AL MAHDI (Udacity instructor)
+* Richard Kalehoff (Udacity mentor)
+    - [https://github.com/richardkalehoff](https://github.com/richardkalehoff)
 
 ### Software
 * _Python 3, NumPy,_ and _Pandas_ installed using _Anaconda_
