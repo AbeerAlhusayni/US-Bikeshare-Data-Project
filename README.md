@@ -16,3 +16,8 @@ bikeshare_2.py
 
 ### Credits
 * YAQEEN AL MAHDI (Udacity instructor)
+
+### Software
+* _Python 3, NumPy,_ and _Pandas_ installed using _Anaconda_
+* A text editor.
+* A terminal application (_Terminal_ on _Mac_ and _Linux_ or _Cygwin_ on _Windows_).
