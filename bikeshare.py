@@ -17,8 +17,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-
-    while True:
+while True:
         city = input("\n Would you like to see data for Chicago, New York, or Washington?\n").lower().strip()
 
         if city in ['chicago', 'new york', 'washington']:
@@ -165,16 +164,16 @@ def user_stats(df):
     # TO DO: Display earliest, most recent, and most common year of birth
     try:
       earliest_year = df['Birth Year'].min()
-      print('\nEarliest Year:', earliest_year)
+      print('Earliest Year:', earliest_year, "\n")
 
       most_recent_year = df['Birth Year'].max()
-      print('\nMost Recent Year:', most_recent_year)
+      print('Most Recent Year:', most_recent_year, "\n")
 
       most_common_year = df['Birth Year'].mode()
-      print('\nMost Common Year:', most_common_year)
+      print('Most Common Year:', most_common_year, "\n")
 
     except KeyError:
-      print('\nYear of Birth:\nThere is no information in Birth Year.\n')
+      print('Year of Birth:\nThere is no information in Birth Year.\n')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
